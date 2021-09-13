@@ -1,0 +1,5 @@
+site_name: Remote sensing notes
+site_url: https://ronnyhdez.github.io/remote_sensing_notes/
+site_author: Ronny A. Hernández Mora
+theme:
+   name: material
