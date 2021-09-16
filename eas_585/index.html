@@ -555,6 +555,7 @@
 <p>The spectral reflectance results from the presence or absence, as well as the position and shape of specific absorption features of the surface. With the sprectral reflectance, we can obtain the spectral signature of different elements in a surface, for example, soil, vegetation, minerals among others. </p>
 <p>When we have a figure with spectral signatures, we need to understand that when in the y-axis (reflectance) there is a decrease in the curve, its because of the aborbance of radiation. High points in the curve means that there is no absorption of radiation. Different elements will have different signatures and thats, in general terms, we can have an idea of the composition of the elements in a surface.</p>
 <p>Another phenomena occurs when there is presence of water, given that this element have low levels (almost al the curve near 0) </p>
+<p>The spectral scale goes from 0 to 1. 0 means black and 1 white</p>
 <h2 id="multispectral">Multispectral</h2>
 <p>Remote sensing systems can record energy over separate  wavelength ranges at various spectral resolutionsThis is over a variety of different wavelength ranges. Usually they scan 7 bands.</p>
 <h2 id="hyperspectral">Hyperspectral</h2>
@@ -569,10 +570,17 @@
 <ul>
 <li>Solar radiation is either reflected (VIS/NIR) or absorbed the reemitted (thermal IR)</li>
 </ul>
+<p>One of the downsides of this methodology is that the presence of clouds in the image can interfere with the measurements.</p>
+<p>When there are clouds, the term <strong>diffuse light</strong> is used.
+When there are no clouds and the image is clear, the term <strong>direct light</strong> is used.</p>
+<p>Problem with clouds is just not the space the occupy in the image (a loss of information in areas covered by clouds) but also the shadow they generate.</p>
+<p>In order to consider a quality image, this one needs to have less than 20% of cloud coverage. When this is happening, i.e. a 20% of cloud coverage in the image represents a loss of information of more than 20% because there will be shadows.</p>
 <h2 id="active-sensing">Active sensing</h2>
 <ul>
 <li>The sensor platform is the energy source as well as the measurement device.</li>
 </ul>
+<p>This methodology does not works well when there is presence of water, i.e. wetlands or lakes. This is because water aborbs the radiation.</p>
+<p><strong>Infrared radtion is aboserbed by water</strong></p>
 <h2 id="sensors-examples">Sensors examples</h2>
 <ul>
 <li><strong>Low resolution</strong>: NOAA-AVHRR</li>
@@ -581,7 +589,7 @@
 <li><strong>Very high resolution</strong>: Iknos2, Quickbird2, Worldview2</li>
 </ul>
 <blockquote>
-<p>From slide 21 to slide 30 there is a description of each of the sentinel satellites launched by ESA.</p>
+<p>From slide 21 to slide 30 in lecture 1 there is a description of each of the sentinel satellites launched by ESA.</p>
 </blockquote>
 <h1 id="another-useful-references">Another useful references</h1>
 <ul>
