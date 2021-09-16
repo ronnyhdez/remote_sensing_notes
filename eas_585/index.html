@@ -607,10 +607,44 @@ When there are no clouds and the image is clear, the term <strong>direct light</
 <li>Leaf structure</li>
 <li>Water content</li>
 </ul>
-<h2 id="vegetation-spectra">Vegetation spectra</h2>
+<h2 id="reflectance-and-plants">Reflectance and plants</h2>
 <p>On plant's spectral signatures we can see that there is peak around 550, that it's known as <strong>green peak</strong></p>
 <p>Around the 1400 values, curves tend to have low reflectance values which is due to the presence of water. If wee see the inverse tendency (high reflectance values) it's because leaves can be dry. So, there is a relation between the reflectance and the physiological state of plants.</p>
-<h2 id="reflectance-and-plants">Reflectance and plants</h2>
+<ul>
+<li>
+<p><strong>Reflectance + Transmission = 1</strong></p>
+</li>
+<li>
+<p>If there is a body of water that appears to have absorption on the 0.4 - 0.7 um its probably due to the presence of algae.</p>
+</li>
+<li>
+<p>If the soil is too dry, reflectance will be really high, and almost all reflectance will be due to the presence of minerals.</p>
+</li>
+<li>
+<p>When exploring reflectance plots we noted some  curves with a lot of noise, this may be caused by the sensor inhability to measure of those wavelength bands.</p>
+</li>
+</ul>
+<h2 id="leaf-spectral-signatures">Leaf spectral signatures</h2>
+<p>The optical leaf profiles depend on foliar pigment type and content, as well as anatomical aspects and cellular structure. This is why we can obtain different spectral signatures from different plant species.</p>
+<h2 id="phenology">Phenology</h2>
+<p>Given that plants have more than pigment that aborbs light for photosynthesizing, the phenology of the plant in a given moment will have an impact on it's spectral reflectance.</p>
+<ul>
+<li>The health or senescence sequence of a leaf can be deduced from its spectral characteristics.</li>
+</ul>
+<h2 id="vegetation-indexes">Vegetation indexes</h2>
+<p>A vegetation index is a single number that quantifies vegetation biomass and/or plant vigor for each pixel in a remote sensing image. Every inedx is basically a certain combination (formula) of the sensor-measured reflectance properties, i.e. water content, chlorophyll content, pigment among others.</p>
+<p>An example of this indexes is the <strong>NDVI</strong> (Normalized Difference Vegetation Index) ranges from +1.0 to -1.0.</p>
+<ul>
+<li>Areas withoud vegetation as bare rocks, sand or snow show very low NDVI values (from 0.1 or less).</li>
+<li>Sparse vegetation such as shrubs, grasslands or senescing crops show moderate NDVI values (from 0.2 to 0.5)</li>
+<li>Dense vegetation found in tropical and temperate forest shows high NDVI values (from 0.6 to 0.9)</li>
+</ul>
+<p>Another example is how healthy or stressed the vegetation is and the NDVI values.</p>
+<ul>
+<li>A healthy plant could have an NDVI value of .72 and the reflectance will be composed by 50% NIR and 8% RED</li>
+<li>A stressed plant could show and NDVI of 0.14 and the reflectance will be composed by 40% NIR and 30% RED.</li>
+<li>Stressed plant will have a bigger composition of its reflectance from RED and lower representation of the NIR.</li>
+</ul>
 <h1 id="another-useful-references">Another useful references</h1>
 <ul>
 <li>
@@ -620,13 +654,16 @@ When there are no clouds and the image is clear, the term <strong>direct light</
 <p><a href="https://www.nrcan.gc.ca/maps-tools-and-publications/satellite-imagery-and-air-photos/tutorial-fundamentals-remote-sensing/satellites-and-sensors/radiometric-resolution/9379">Definition of radiometric resolution from NRCAN</a></p>
 </li>
 <li>
-<p><a href="https://www.nrcan.gc.ca/maps-tools-and-publications/satellite-imagery-and-air-photos/tutorial-fundamentals-remote-sensing/satellites-and-sensors/spectral-resolution/9393">https://www.nrcan.gc.ca/maps-tools-and-publications/satellite-imagery-and-air-photos/tutorial-fundamentals-remote-sensing/satellites-and-sensors/spectral-resolution/9393</a>i</p>
+<p><a href="https://www.nrcan.gc.ca/maps-tools-and-publications/satellite-imagery-and-air-photos/tutorial-fundamentals-remote-sensing/satellites-and-sensors/spectral-resolution/9393">https://www.nrcan.gc.ca/maps-tools-and-publications/satellite-imagery-and-air-photos/tutorial-fundamentals-remote-sensing/satellites-and-sensors/spectral-resolution/9393</a></p>
 </li>
 <li>
 <p><a href="https://www.sciencedirect.com/topics/earth-and-planetary-sciences/spectral-reflectance">Several definitions of spectral reflectance</a></p>
 </li>
 <li>
 <p><a href="https://www.earthdatascience.org/courses/earth-analytics/multispectral-remote-sensing-data/introduction-multispectral-imagery-r/">Multispectral information in context</a></p>
+</li>
+<li>
+<p><a href="https://www.usgs.gov/core-science-systems/eros/phenology/science/ndvi-foundation-remote-sensing-phenology?qt-science_center_objects=0#qt-science_center_objects">NDVI foundation</a></p>
 </li>
 </ul>
                 
