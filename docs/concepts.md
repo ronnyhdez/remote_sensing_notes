@@ -11,6 +11,12 @@
  - **Spectral resolution**: Most sensors are only able to sample a portion of the electromagnetic spectrum. Spectral resolution is used to describe the number of sensor wavebands and associated bandwidths used in sampling the spectrum. High-spectral resolution is achieved with a hi gher number of narrow bandwidths, which collectively provide a representation of the spectral signature of the surface.
  - **Temporal resolution**: This is used to describe frequency of coverage by a sensor over any specific area. It is related to the sensor field of view, pixel size and pointing capabilities. This is important in Earth monitoring studies, change detection and global change studies.
  - **Radiometric resolution**: This is used to describe the fidelity with which a sensor can distinguish reflectance differences. It is a function of the signal-to-noise ratio of a particular sensor.
+ - **SIF**: Sun-induced chlorophyll flourescence is an electromagnetic signal emitted by chlorophyll a molecules when exposed to sunlight. Is a very weak signal compared to reflected sunlight as only a few percent of the absorbed energy is re-emitted as SIF. This is unique among other remote sensing indicators in being directly sensitive to changes in leaf photosynthetic physionlogy.
+ - **Φ F**: Chlorophyll fluorescence emision yield.
+ - **f esc**: Canopy escape fraction.
+ - **NIRvP**: Near-infrared reflectance of vgetation multiplied by incoming sunlight.
+ - **NIRv**: Near-infrared reflectance of vegetation.
+ - **APAR**:  Absorbed photosynthetically active radiation.
 
 
 # Concepts:
@@ -22,7 +28,7 @@
  - The spectral band about 650 nm (where chlorohyll absorption is strong), a polarized reflectance of 9% may account for 58% of the total radiation reflected by the leaf. 
  - In the NIR (800 - 850 nm)  where pigments do not absorb anymore, variation between species in the radiation scattered from the leaf interior can be comparable to or smaller than that of the leaf surface reflected radiation.
  - Leaf optical properties cannot be directly measured from space because the radiation scattered from leaves and exiting the canopy in the direction of the sensor is strongly affected by the 3D canopy structure.
-
+ - **Applications of SIF** are diverse and includes photosynthetic phenology, plant stress detection and crop yield estimatio, but the main goal of most SIF research is the remote estimation of terrestrial gross primary productivity. The canopy-level SIF is controlled by 3 main mechanistic factos as APAR (abosorbed photosynthetically active radiation), chlorophyll fluosrescence emission yield (Φ F) and in the far-red SIF (about 760 nm) scattering of emitted fluorescence within the canopy that allows only a fraction of the emitted radiation to escape the canopy.
 
 ## References:
 
