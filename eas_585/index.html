@@ -645,6 +645,30 @@ When there are no clouds and the image is clear, the term <strong>direct light</
 <li>A stressed plant could show and NDVI of 0.14 and the reflectance will be composed by 40% NIR and 30% RED.</li>
 <li>Stressed plant will have a bigger composition of its reflectance from RED and lower representation of the NIR.</li>
 </ul>
+<h1 id="specular-vs-diffuse-reflectance">Specular vs diffuse reflectance</h1>
+<p>There are two types of reflectances:</p>
+<ul>
+<li>Specular: The angle of th incident ray is the same as the reflected ray. This one can be driven by the waxes of the leaves.</li>
+<li>Diffuse (Lambertian): The angle of the reflected ray is isotropic (uniform in all directions)</li>
+</ul>
+<h1 id="minerals">Minerals</h1>
+<p>Their spectra is going to be defined by their elements composition</p>
+<ul>
+<li>Is controlled by electronic processes</li>
+<li>The absorption is driven by the change in balance state due to irradiation</li>
+<li>Location of absorption bands is based on the presence of various (typically matellic) elements</li>
+<li>Electronic absorption features are found typically in the UV VIS parts of the spectrum</li>
+</ul>
+<p>When you are working with minerals, you are looking for emissivity, that's why the LWIR is used rather than the visible spectrum (There is a lot of aborbance in this region.</p>
+<p>Absorbtion features are caused by two processes:</p>
+<ul>
+<li>Electronic processes: You can detect this ones on the Visible Near Infraredd</li>
+<li>Vibrational processes: This ones are more intense. It's more about the chemistry. You can detect this in the Short/Long Wave Infrared.</li>
+</ul>
+<h2 id="data-analysis">Data analysis</h2>
+<ul>
+<li>Continuum removal / convex-hull: Is a normalization process for absoprtion features that allows the comparison of spectra adquire by different instruments or under different ligth conditions</li>
+</ul>
 <h1 id="another-useful-references">Another useful references</h1>
 <ul>
 <li>
