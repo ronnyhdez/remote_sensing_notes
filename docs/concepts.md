@@ -11,14 +11,15 @@
  - **Spectral resolution**: Most sensors are only able to sample a portion of the electromagnetic spectrum. Spectral resolution is used to describe the number of sensor wavebands and associated bandwidths used in sampling the spectrum. High-spectral resolution is achieved with a hi gher number of narrow bandwidths, which collectively provide a representation of the spectral signature of the surface.
  - **Temporal resolution**: This is used to describe frequency of coverage by a sensor over any specific area. It is related to the sensor field of view, pixel size and pointing capabilities. This is important in Earth monitoring studies, change detection and global change studies.
  - **Radiometric resolution**: This is used to describe the fidelity with which a sensor can distinguish reflectance differences. It is a function of the signal-to-noise ratio of a particular sensor.
- - **SIF**: Sun-induced chlorophyll flourescence is an electromagnetic signal emitted by chlorophyll a molecules when exposed to sunlight. Is a very weak signal compared to reflected sunlight as only a few percent of the absorbed energy is re-emitted as SIF. This is unique among other remote sensing indicators in being directly sensitive to changes in leaf photosynthetic physionlogy.
+ - **SIF**: Sun-induced chlorophyll flourescence is an electromagnetic signal emitted by chlorophyll a molecules when exposed to sunlight. Is a very weak signal compared to reflected sunlight as only a few percent of the absorbed energy is re-emitted as SIF. This is unique among other remote sensing indicators in being directly sensitive to changes in leaf photosynthetic physiology.
  - **Φ F**: Chlorophyll fluorescence emision yield.
  - **f esc**: Canopy escape fraction.
  - **NIRvP**: Near-infrared reflectance of vgetation multiplied by incoming sunlight.
  - **NIRv**: Near-infrared reflectance of vegetation.
  - **APAR**:  Absorbed photosynthetically active radiation.
-
-
+ - **LUEp**: Photosynthetic light use efficiency of the canopy.
+ - **GPP**: Gross Primary Production. The total carbon fixation by plants
+ - **Rp**: Annual Production Resilence Indicator. Is the squared mean annual GPP divided by its variance. Was proposed for a statistical evaluation of the production resilence of natural vegetation.
 # Concepts:
 
  - The architecture of individuals plants, their spatial distribution, and reflectivity to the ground (or understoy) beneath a vegetation canopy also determine the angular patterns of reflected ratiation, or the bidirectional reflectance factor (BRF dimensionless)
@@ -32,4 +33,5 @@
 
 ## References:
 
+ - [Definition and calculation of NDVI in R](https://www.earthdatascience.org/courses/earth-analytics/multispectral-remote-sensing-data/vegetation-indices-NDVI-in-R/)
  - [https://www.sciencedirect.com/topics/earth-and-planetary-sciences/radiometric-resolution](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/radiometric-resolution) 
